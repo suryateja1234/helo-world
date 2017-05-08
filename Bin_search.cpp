@@ -3,6 +3,7 @@ int c=0;
 int bin_search(int A[], int key, int left, int right)
 {
 	int mid;
+	int kk;
 	mid=(left+right)/2; c++;
 	if(A[mid]==key) 
 	{
